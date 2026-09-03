@@ -2738,3 +2738,23 @@ a {
     }
 
 }
+/* =========================
+   MOBILE MENU FIX
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        position: relative;
+        z-index: 9999;
+    }
+
+    .nav-links.active {
+        position: absolute;
+        z-index: 10000;
+
+        background: #0b100c;
+        opacity: 1;
+    }
+
+}
